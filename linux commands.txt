@@ -1,0 +1,267 @@
+    1  yum update
+    2  cat > file1
+    3  cat >> file1
+    4  cat file1
+    5  touch file2
+    6  ls
+    7  nano file3
+    8  vi file4
+    9  vi file3
+   10  nano file4
+   11  cat file3
+   12  cat file4
+   13  cat > file4
+   14  cat file4
+   15  cat >> file4
+   16  cat file4
+   17  vi file1
+   18  nano file1
+   19  cat file2
+   20  cat > file2
+   21  cat file2
+   22  clear
+   23  ls
+   24  mkdir dir1
+   25  ls
+   26  touch .file5
+   27  ls
+   28  mkdir .dir2
+   29  ls
+   30  ls -a
+   31  ls -l
+   32  ls -a
+   33  ls -la
+   34  mkdir -p dira/dirb/dirc
+   35  ls
+   36  cd dira
+   37  ls
+   38  cd dirb
+   39  ls
+   40  cd dirc
+   41  ls
+   42  cd ..
+   43  cd ..
+   44  cd ..
+   45  ls
+   46  cd dira/dirb/dirc
+   47  ls
+   48  cd ../../..
+   49  pwd
+   50  pwd
+   51  ls
+   52  cd dira/dirb/dirc
+   53  pwd
+   54  cd ../../..
+   55  cd ..
+   56  ls
+   57  ls -l
+   58  cd ..
+   59  ls
+   60  cd home
+   61  ls
+   62  cd ec2-user
+   63  ls
+   64  history
+   65  ls
+   66  ls
+   67  ls
+   68  cd dira/dirb/dirc
+   69  pwd
+   70  cd ../../..
+   71  cd ..
+   72  cd ..
+   73  ls
+   74  cd home/ec2-user
+   75  yum install tree
+   76  tree
+   77  mkdir -p dirv/dirw/dirx/diry/dirz
+   78  ls
+   79  tree
+   80  tree
+   81  cp file1 dir1
+   82  tree
+   83  cd dir1
+   84  ls
+   85  cd ..
+   86  tree
+   87  tree
+   88  mv file2 dir1
+   89  ls
+   90  tree
+   91  mv file3 myfile300
+   92  tree
+   93  mv dir1 dir2
+   94  tree
+   95  mv dir2 dir1
+   96  tree
+   97  mv dir1 dira
+   98  tree
+   99  cd dira
+  100  ls
+  101  rm -rf dir1
+  102  ls
+  103  cd ..
+  104  ls
+  105  tree
+  106  touch testfile1
+  107  tree
+  108  cd dira
+  109  cd dirb
+  110  cd dirc
+  111  touch testfile3
+  112  ls
+  113  cd ../../..
+  114  ls
+  115  tree
+  116  touch dira/dirb/dirc/testfile4
+  117  tree
+  118  touch dirv/dirw/dirx/diry/dirz/testfilea
+  119  tree
+  120  cat > dira/dirb/dirc/testfile3
+  121  cat dira/dirb/dirc/testfile3
+  122  cd dira
+  123  ls
+  124  cd ..
+  125  ls dira/dirb/dirc
+  126  tree
+  127  mkdir dirv/dirw/dirx/diry/dirm
+  128  ls
+  129  tree
+  130  tree
+  131  cp file1 dirv/dirw/dirx/diry
+  132  ls
+  133  tree
+  134  cp dira/dirb/dirc/testfile3 dirv/dirw/dirx/diry
+  135  tree
+  136  mv dira/dirb/dirc/testfile4 dirv/dirw
+  137  tree
+  138  mv dira/dirb/dirc/testfile3 dira/dirb/dirc/testfile300
+  139  tree
+  140  rm -rf dirv/dirw/testfile4
+  141  tree
+  142  touch dira/dirb/dirc/saifile1
+  143  tree
+  144  pwd
+  145  rm -rf file1 file4 myfile300 testfile1
+  146  tree
+  147  rm -rf dirv/dirw/dirx/diry/file1
+  148  tree
+  149  rm -rf dirv/dirw/dirx/diry/testfile3
+  150  tree
+  151  cd ..
+  152  cd ..
+  153  ls
+  154  cd home
+  155  cd ec2-user
+  156  touch /home/ec2-user/dira/dirb/dirc/saifile2
+  157  tree
+  158  tree
+  159  pwd
+  160  cd ..
+  161  cd ..
+  162  cd home
+  163  cd ec2-user
+  164  cd ../..
+  165  cd home/ec2-user
+  166  ls /
+  167  ls /etc
+  168  clear
+  169  history
+  170  cat /etc/passwd
+  171  grep root /etc/passwd
+  172  cat /etc/passwd
+  173  less /etc/passwd
+  174  less /etc/passwd
+  175  more /etc/passwd
+  176  more /etc/passwd
+  177  less /etc/passwd
+  178  head /etc/passwd
+  179  head -3 /etc/passwd
+  180  head -5 /etc/passwd
+  181  less /etc/passwd
+  182  tail /etc/passwd
+  183  tail -4 /etc/passwd
+  184  tail -7 /etc/passwd
+  185  ls
+  186  cat > myfile
+  187  cat myfile
+  188  cat myfile
+  189  sort myfile
+  190  cat myfile
+  191  hostname
+  192  ifconfig
+  193  hostname -i
+  194  cat /etc/os-release
+  195  cat /etc/os-rele*
+  196  cat /etc/*release
+  197  cat /etc/*rele*
+  198  yum install httpd
+  199  which httpd
+  200  which tree
+  201  which mysql
+  202  yum update httpd -y
+  203  yum remove httpd -y
+  204  which httpd
+  205  yum install httpd -y
+  206  yum list installed
+  207  yum list installed | grep httpd*
+  208  which httpd
+  209  service httpd status
+  210  service httpd start
+  211  service httpd status
+  212  service httpd stop
+  213  service httpd status
+  214  serivce httpd status
+  215  service httpd status
+  216  service httpd start
+  217  service httpd status
+  218  service httpd status
+  219  service httpd start
+  220  service httpd status
+  221  chkconfig httpd on
+  222  chkconfig httpd off
+  223  echo "Hi"
+  224  echo "hari"
+  225  echo "hello"
+  226  echo "hello everyone" > newfile
+  227  ls
+  228  cat newfile
+  229  echo "Students" >> newfile
+  230  cat newfile
+  231  whoami
+  232  ls
+  233  find -type f
+  234  find -type d
+  235  find / -type f
+  236  find / -type d
+  237  find / -type f -name passwd
+  238  find / -type f -name os-release
+  239  find / -type d -name dira
+  240  find / -type d -name etc
+  241  ls
+  242  cd ..
+  243  cd ..
+  244  ls
+  245  cd usr/
+  246  ls
+  247  pwd
+  248  cd ..
+  249  ls
+  250  cd bin
+  251  ls
+  252  cd ..
+  253  cd sbin/
+  254  ls
+  255  cd ..
+  256  ls
+  257  cd home/ec2-user/
+  258  find / -type httpd
+  259  yum list installed | grep tree*
+  260  find / -type d -name tree
+  261  find / -type f -name tree
+  262  find / -type f -name httpd
+  263  touch sdfghjkldfghjklxghjklzxcvbnmxcvbnxcvb
+  264  ls
+  265  tree
+  266  ls
+  267  history
